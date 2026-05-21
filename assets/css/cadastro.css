@@ -1,0 +1,68 @@
+.textlabel{
+   margin:10px;
+   margin-bottom:5px;
+   font-weight:bold;
+   color:#333333;
+}
+.campotexto{
+    padding:12px;
+    border:1px solid #CCC;
+    border-radius:8px;
+    outline:none;
+    transition:0.3s;
+}
+
+.campotexto:focus{
+    border-color:blue;
+    box-shadow: 0 0 5px rgba(108, 202, 186, 0.5);
+}
+
+.form{
+    background-color:#F5F5F5;
+    padding:20px;
+    width:350px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    display:flex;
+    flex-direction:column;
+    }
+
+    #tituloform{
+        text-align:center;
+        margin-bottom:5px;
+        font-weight:bold;
+        color:#333333;
+    }   
+
+    #bnEnviar{
+        margin-top:20px;
+        padding:12px;
+        background:rgb(0, 102, 255);
+        color:white;
+        border:none;
+        border-radius:8px;
+        cursor:pointer;
+        font-size:16px;
+        transition:0.3s
+    }
+
+    #bnEnviar:hover{
+        background-color:green;
+
+    }
+
+    #logoform{
+        display:block;
+        margin:0 auto 20px;
+        width:200px;
+        border-radius:50px;
+    }
+
+    body{
+    background-color:#FFFFFF;
+    font-family:Arial, Helvetica, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
